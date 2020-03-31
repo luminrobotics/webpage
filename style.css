@@ -1,0 +1,24 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  text-align: center;
+  height: 100vh;
+
+  color: #555;
+}
+
+img {
+  margin: auto;
+  position: relative;
+  height: 20%;
+  top: 35%;
+}
+
+#footer {
+  margin: auto;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  bottom: 20px;
+}
