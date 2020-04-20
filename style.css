@@ -1,21 +1,26 @@
 html, body {
   margin: 0px;
   padding: 0px;
-  background-color: #000;
+  background-color: #ffffff;
   text-align: center;
   height: 100vh;
-
-  color: #555;
 }
 
-img {
+#content {
   margin: auto;
   position: relative;
-  height: 20%;
-  top: 35%;
+  height: 31%;
+  top: 29%;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+#content img {
+    margin-bottom: 1rem;
 }
 
 #footer {
+  color: #aaa;
   margin: auto;
   position: absolute;
   width: 100vw;
