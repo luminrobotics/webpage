@@ -20,6 +20,20 @@ html, body {
     margin-bottom: 1rem;
 }
 
+#content #contact {
+    margin-top: 3rem;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: #19324d;
+}
+
+a:hover {
+    color: #11658d;
+}
+
 #footer {
   color: #aaa;
   margin: auto;
