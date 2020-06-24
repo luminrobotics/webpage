@@ -5,6 +5,15 @@ html, body {
   text-align: center;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
+  color: #aaa;
+}
+
+body {
+  background-image: url('hotel.png');
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: hard-light;
+  background-position: right;
 }
 
 #content {
@@ -13,10 +22,15 @@ html, body {
   top: 31%;
   color: #000;
   font-size: 1.2rem;
+  background-color: rgba(255,255,255,0.85);
+  width: 30%;
+  min-width: 300px;
+  padding: 32px;
+  border-radius: 12px;
 }
 
 #content img {
-  height: 18%;
+  width: 80%;
   margin-bottom: 2rem;
 }
 
@@ -35,7 +49,6 @@ a:hover {
 }
 
 #footer {
-  color: #aaa;
   margin: auto;
   position: absolute;
   width: 100vw;
