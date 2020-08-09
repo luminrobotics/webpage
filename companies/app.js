@@ -125,7 +125,7 @@ var App = function App() {
         React.createElement(
           Typography,
           { variant: 'body1', gutterBottom: true },
-          'We are encouraged by the number of start-ups and existing companies that have stepped up to the challenge all around the world and put together a robotic UV solution in a very short amount of time. This is a shout-out to these companies whose images and links we maintain below. We will keep adding to this list as we hear about others. Some of these robots are just concepts, others are prototypes, and some are already in operation. But all of them pursue the same goal: make everyday places safer for people! '
+          'We are encouraged by the number of start-ups and existing companies that have stepped up to the challenge all around the world and put together a robotic UV solution in a very short amount of time. This is a shout-out to these companies, whose images and links we maintain below. We will keep adding to this list as we hear about others. Some of these robots are proof-of-concepts, others are prototypes, and some are already in operation. But all of them pursue the same goal: make everyday places safer for people! '
         ),
         React.createElement(
           Typography,
