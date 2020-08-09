@@ -115,7 +115,7 @@ const App = () => {
             We are encouraged by the number of start-ups and existing companies
             that have stepped up to the challenge all around the world and put
             together a robotic UV solution in a very short amount of time. This
-            is a shout-out to these companies whose images and links we maintain
+            is a shout-out to these companies, whose images and links we maintain
             below. We will keep adding to this list as we hear about others.
             Some of these robots are just concepts, others are prototypes, and
             some are already in operation. But all of them pursue the same goal:
