@@ -126,7 +126,7 @@ export default [
     website: 'http://roborn.com/unicorn_en/',
     news: 'https://www.scmp.com/business/article/3087921/hong-kong-start-roborn-joins-race-pioneer-uv-light-disinfecting-robots',
     image: 'roborn.jpg',
-    location: 'China (Hong-Kong)',
+    location: 'China',
   },
   { name: 'TRC Robotics',
     website: 'https://trcrobotics.com/',
@@ -151,7 +151,7 @@ export default [
   { name: 'Techmetics Techi UV',
     website: 'https://www.techmetics-group.com/products/techi-uv-disinfection/',
     image: 'techmetics.png',
-    location: 'USA/Singapore',
+    location: 'USA',
   },
   { name: 'Omron Asia-Pacific: UVC-LD',
     news: 'https://www.mobihealthnews.com/news/asia-pacific/omron-launches-uvc-disinfection-robot-targeting-covid-19-virus',
@@ -172,6 +172,6 @@ export default [
     location: 'India',
     note: 'Acquired by Solaris',
     status: 'acquired',
-    
+
   },
 ];

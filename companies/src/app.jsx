@@ -21,7 +21,7 @@ const styles = {
     margin: '1em',
   },
   intro: {
-    margin: '1em'
+    margin: '2em'
   },
   introText: {
     padding: '2em',
@@ -34,8 +34,35 @@ const styles = {
     width: 300,
     height: 400,
     fontSize: '24px'
+  },
+  groupHeader: {
+    width: '100%',
+    margin: '0em 0em 0em 2em',
+    padding: '0.5em',
+    borderTop: '1px solid #e0e0e0'
   }
 };
+
+const Data = ({data, groupBy}) => {
+  const grouped = groupBy ? _.groupBy(data, c => c[groupBy]) : {'All': data};
+
+  return _.map(grouped, (group, key) => <React.Fragment>
+    { key &&
+      <div style={styles.groupHeader}>
+        <Typography variant="h6" gutterBottom>
+          {key}
+        </Typography>
+      </div>
+    }
+    { group.map((company, i) =>
+      <div style={styles.cardWrapper}>
+        <CompanyCard {...company} number={i+1}/>
+      </div>)
+    }
+  </React.Fragment>);
+};
+
+
 
 const App = () => {
   // const [pressed, setPressed] = React.useState(false);
@@ -46,6 +73,8 @@ const App = () => {
   // <Button variant="contained" color="primary" onClick={() => setPressed(true)}>
   //   Like
   // </Button>
+
+  const [groupBy, setGroupBy] = React.useState('location');
 
   return (
     <div style={styles.page}>
@@ -64,14 +93,14 @@ const App = () => {
             UV-C has shown to be effective against a long list of pathogens.
             The irradiance required to neutralize different pathogens varies
             widely, with bacteria, especially "super-bugs" like C.diff,
-            requiring the most power and time. Fortunately, single-stranded
+            requiring the most power and time. Fortunately single-stranded
             viruses like influenza and SARS-CoV-2 require relatively little
             power (around 6mJ/cm² for a 2-log reduction, i.e., 99% kill rate).
           </Typography>
 
           <Typography variant="body1" gutterBottom>
             To effectively disinfect in-door spaces like hotel rooms,
-            warehouses, and schools, it is essential to move the light source
+            warehouses, and schools it is essential to move the light source
             around in the space. This is necessary for
             effectiveness and efficiency: to avoid shadowing and because the
             intensity of the light reduces quadratically with distance.
@@ -84,14 +113,13 @@ const App = () => {
           <Typography variant="body1" gutterBottom>
 
             We are encouraged by the number of start-ups and existing companies
-            that have stepped up to the challenge and put together a robotic UV
-            solution in a very short amount of time. This is a shout-out to these
-            companies whose images and links we maintain below. We will
-            keep adding to this list as we hear about others. Some of these robots
-            are just concepts, others are prototypes, and some are already in
-            operation. But all of them pursue the same goal: make everyday
-            places safer for people!
-          </Typography>
+            that have stepped up to the challenge all around the world and put
+            together a robotic UV solution in a very short amount of time. This
+            is a shout-out to these companies whose images and links we maintain
+            below. We will keep adding to this list as we hear about others.
+            Some of these robots are just concepts, others are prototypes, and
+            some are already in operation. But all of them pursue the same goal:
+            make everyday places safer for people! </Typography>
 
           <Typography variant="body1" gutterBottom>
 
@@ -110,17 +138,14 @@ const App = () => {
         </div>
       </div>
       <div style={styles.wrapper}>
-        {
-          data.map((company, i) => <div style={styles.cardWrapper}>
-          <CompanyCard {...company} number={i+1}/>
-        </div>)
-      }
-      <div style={styles.cardWrapper} className='add'>
-        <Button variant="outlined" style={styles.add}
-          onClick={() => location.href = MAILTO}>
-          + <br /> Add
-        </Button>
-      </div>
+        <Data data={data} groupBy={groupBy} />
+        <div style={styles.groupHeader}></div>
+        <div style={styles.cardWrapper} className='add'>
+          <Button variant="outlined" style={styles.add}
+            onClick={() => location.href = MAILTO}>
+            + <br /> Add
+          </Button>
+        </div>
     </div>
   </div>);
 };
