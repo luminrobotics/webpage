@@ -37,10 +37,20 @@ const styles = {
     backgroundColor: '#660000'//red[500],
   },
   location: {
+  },
+  status: {
+    backgroundColor: '#00960d',
+    padding: '0.5em',
+    textAlign: 'center',
+  },
+  statusText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    margin: 0,
   }
 };
 
-export default ({name, website, news, image, number, location}) => {
+export default ({name, website, news, image, number, location, note, status}) => {
   // const [expanded, setExpanded] = React.useState(false);
   //
   // const handleExpandClick = () => {
@@ -49,6 +59,13 @@ export default ({name, website, news, image, number, location}) => {
 
   return (
     <Card style={styles.root}>
+      { status &&
+        <div style={styles.status}>
+          <Typography variant="body2" gutterBottom style={styles.statusText}>
+            {status}
+          </Typography>
+        </div>
+      }
       { image && <a href={website || news} target='_blank'><CardMedia
         component="img"
         style={styles.media}
@@ -74,6 +91,11 @@ export default ({name, website, news, image, number, location}) => {
           { news && <div><Link href={news} variant="body2" target='_blank'>
               In the news
             </Link></div>
+          }
+          {
+            note && <Typography variant="body2" gutterBottom>
+              <div dangerouslySetInnerHTML={{__html: note}}></div>
+            </Typography>
           }
         </Typography>
       </CardContent>

@@ -3,7 +3,8 @@ export default [
     name: 'UVD Robots',
     website: 'https://www.uvd-robots.com/',
     image: 'uvd-robots.png',
-    location: 'Denmark'
+    location: 'Denmark',
+    note: 'Part of <a href:"https:www.blue-ocean-robotics.com"="">Blue Ocean Robotics</a>',
   },
   { name: 'Sterilray',
     website: 'https://sterilray.com/landing-page/products/sterilray-autonomous-disinfection-vehicle-adv/',
@@ -30,14 +31,14 @@ export default [
   },
   { name: 'TMiRob',
     website: 'http://www.tmirob.com/products?cate=3',
-    other: 'https://www.time-medical.com/intelligent-sterilization-robot',
+    note: '<a href="https://www.time-medical.com/intelligent-sterilization-robot">Distributor</a>',
     image: 'tmirob.png',
     location: 'China',
   },
   { name: 'Milagrow',
     website: 'https://milagrowhumantech.com/healthcare-robots/1105-robocop-indoor-disinfection-robot.html',
     image: 'milagrow.png',
-    price: 'Rs 3,999,990 ≅ $53,315',
+    note: 'Price: Rs 3,999,990 ≅ $53,315',
     location: 'India',
   },
   { name: 'Digital Safety (DiSa)',
@@ -76,7 +77,9 @@ export default [
     website: 'https://aitheon.com/medical-robots',
     image: 'aitheon.webp',
     location: 'Ukraine',
-    note: 'Not to be confused with Aethon.'
+    other: {
+      Note: 'Not to be confused with Aethon.'
+    }
   },
   { name: 'Amazon (Canvas Technologies)',
     news: 'https://www.cbsnews.com/news/amazon-workforce-safety-60-minutes-2020-05-10/',
@@ -167,11 +170,9 @@ export default [
   { name: 'Jetbrain Robotics',
     website: 'https://jetbrain.ai/#uvid',
     news: 'http://ein.iconnect007.com/index.php/article/123968/solaris-acquires-jetbrain-to-aid-in-using-robots-to-fight-covid/123971/?skin=ein',
-    other: 'https://solarislyt.com/the-lytbot/',
     image: 'jetbrain.png',
     location: 'India',
-    note: 'Acquired by Solaris',
-    status: 'acquired',
-
+    status: 'Acquired',
+    note: 'Acquired by <a href="https://solarislyt.com/the-lytbot/">Solaris</a>',
   },
 ];

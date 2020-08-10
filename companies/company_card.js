@@ -37,7 +37,17 @@ var styles = {
   avatar: {
     backgroundColor: '#660000' //red[500],
   },
-  location: {}
+  location: {},
+  status: {
+    backgroundColor: '#00960d',
+    padding: '0.5em',
+    textAlign: 'center'
+  },
+  statusText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    margin: 0
+  }
 };
 
 export default (function (_ref) {
@@ -46,7 +56,9 @@ export default (function (_ref) {
       news = _ref.news,
       image = _ref.image,
       number = _ref.number,
-      location = _ref.location;
+      location = _ref.location,
+      note = _ref.note,
+      status = _ref.status;
 
   // const [expanded, setExpanded] = React.useState(false);
   //
@@ -57,6 +69,15 @@ export default (function (_ref) {
   return React.createElement(
     Card,
     { style: styles.root },
+    status && React.createElement(
+      'div',
+      { style: styles.status },
+      React.createElement(
+        Typography,
+        { variant: 'body2', gutterBottom: true, style: styles.statusText },
+        status
+      )
+    ),
     image && React.createElement(
       'a',
       { href: website || news, target: '_blank' },
@@ -104,6 +125,11 @@ export default (function (_ref) {
             { href: news, variant: 'body2', target: '_blank' },
             'In the news'
           )
+        ),
+        note && React.createElement(
+          Typography,
+          { variant: 'body2', gutterBottom: true },
+          React.createElement('div', { dangerouslySetInnerHTML: { __html: note } })
         )
       )
     )
