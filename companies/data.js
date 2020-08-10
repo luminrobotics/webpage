@@ -175,4 +175,10 @@ export default [
     status: 'Acquired',
     note: 'Acquired by <a href="https://solarislyt.com/the-lytbot/">Solaris</a>',
   },
+  { name: 'Lumin Robotics',
+    website: 'https://luminrobotics.com',
+    image: 'lumin-hotel.png',
+    location: 'USA',
+    note: '(Disclaimer: This is us.)',
+  },
 ];
