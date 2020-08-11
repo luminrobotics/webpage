@@ -181,4 +181,9 @@ export default [
     location: 'USA',
     note: '(Disclaimer: This is us.)',
   },
+  { name: 'uvclight.co.uk: Helios',
+    website: 'https://www.uvclight.co.uk/helios-uvc-robot/',
+    image: 'helios.jpg',
+    location: 'UK',
+  },
 ];
