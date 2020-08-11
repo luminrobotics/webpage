@@ -110,7 +110,7 @@ var App = function App() {
         React.createElement(
           Typography,
           { variant: 'h4', gutterBottom: true },
-          'UV Robots'
+          'List of UV Robots'
         ),
         React.createElement(
           Typography,

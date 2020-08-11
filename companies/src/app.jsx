@@ -82,7 +82,7 @@ const App = () => {
         <Link href="/">« back to homepage</Link>
         <Paper style={styles.introText}>
           <Typography variant="h4" gutterBottom>
-            UV Robots
+            List of UV Robots
           </Typography>
 
           <Typography variant="body1" gutterBottom>
