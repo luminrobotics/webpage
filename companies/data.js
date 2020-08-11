@@ -180,10 +180,32 @@ export default [
     image: 'lumin-hotel.png',
     location: 'USA',
     note: '(Disclaimer: This is us.)',
-  },
-  { name: 'uvclight.co.uk: Helios',
+  }, { name: 'uvclight.co.uk: Helios',
     website: 'https://www.uvclight.co.uk/helios-uvc-robot/',
     image: 'helios.jpg',
     location: 'UK',
+  }, {
+    name: 'Addverb Technologies',
+    website: 'https://addverb.com/product/decimator/',
+    image: 'addverb.png',
+    location: 'India',
+  }, {
+    name: 'AV&T',
+    website: 'https://avnt.co.in/uv-robot.html',
+    image: 'avnt.jpg',
+    location: 'India',
+  }, {
+    name: 'VTRAC Robotics',
+    website: 'https://www.vtracrobotics.com/product/uv-sterilizing-robot/',
+    image: 'vtrac.png',
+    location: 'Canada',
+    note: 'Also distributed by <a href="http://www.allrwell.com/fully-automatic-uv-disinfection-and-sterilization-robot-intelligent-autonomous-navigation-automatic-uv-medical-disinfection-robot/">Allrwell</a>?'
   },
 ];
+
+// {
+//   name: '',
+//   website: '',
+//   image: '',
+//   location: '',
+// },
