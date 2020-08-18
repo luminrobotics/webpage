@@ -200,7 +200,12 @@ export default [
     image: 'vtrac.png',
     location: 'Canada',
     note: 'Also distributed by <a href="http://www.allrwell.com/fully-automatic-uv-disinfection-and-sterilization-robot-intelligent-autonomous-navigation-automatic-uv-medical-disinfection-robot/">Allrwell</a>?'
-  },
+  }, {
+    name: 'UVRobotics: UVR-bot',
+    website: 'https://en.uvrobotics.com.ar/',
+    image: 'uvrbot.webp',
+    location: 'Argentina',
+  }
 ];
 
 // {
