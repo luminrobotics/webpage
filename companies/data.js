@@ -205,6 +205,12 @@ export default [
     website: 'https://en.uvrobotics.com.ar/',
     image: 'uvrbot.webp',
     location: 'Argentina',
+  }, {
+    name: 'OTSAW: O-RX',
+    website: 'https://www.otsaw.com/disinfection-robot.php',
+    news: 'https://www.biospectrumasia.com/news/26/16586/otsaw-tests-first-live-coronavirus-sample-successfully-.html',
+    image: 'otsaw.png',
+    location: 'Singapore',
   }
 ];
 
