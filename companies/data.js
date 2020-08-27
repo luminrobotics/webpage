@@ -211,6 +211,13 @@ export default [
     news: 'https://www.biospectrumasia.com/news/26/16586/otsaw-tests-first-live-coronavirus-sample-successfully-.html',
     image: 'otsaw.png',
     location: 'Singapore',
+  },
+  {
+    name: 'AutoBio Reduction: UV Ninja',
+    image: 'autobio.png',
+    news: 'https://www.wthr.com/article/news/local/purdue-couple-invents-robot-that-disinfects-with-uv-light/531-cb1fae25-0429-423d-8f1f-e978c055ba67',
+    website: 'https://www.youtube.com/channel/UCkRRxcyVdVPSzk2VJDlnEow',
+    location: 'USA'
   }
 ];
 
