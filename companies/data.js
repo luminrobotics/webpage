@@ -218,6 +218,11 @@ export default [
     news: 'https://www.wthr.com/article/news/local/purdue-couple-invents-robot-that-disinfects-with-uv-light/531-cb1fae25-0429-423d-8f1f-e978c055ba67',
     website: 'https://www.youtube.com/channel/UCkRRxcyVdVPSzk2VJDlnEow',
     location: 'USA'
+  }, {
+    name: 'Resgreen Group International: Wanda',
+    website: 'Resgreen Group International',
+    image: 'wanda.png',
+    location: 'USA',
   }
 ];
 
