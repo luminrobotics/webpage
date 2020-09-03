@@ -245,6 +245,16 @@ var data = [{
   image: 'airobotpro.jpg',
   location: 'China',
   note: 'Price: $9,900 - $28,600 USD'
+}, {
+  name: 'Milvus Robotics: SEIT-UV',
+  website: 'https://milvusrobotics.com/products/seit-uv',
+  image: 'seit-uv.png',
+  location: 'Turkey'
+}, {
+  name: 'Altoros',
+  website: 'https://www.altoros.com/solutions/uvc-disinfection-robot',
+  image: 'altoros.png',
+  location: 'USA'
 }];
 
 var Data = function Data(_ref) {
