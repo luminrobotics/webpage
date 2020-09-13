@@ -283,6 +283,11 @@ const data = [
     website: 'https://www.altoros.com/solutions/uvc-disinfection-robot',
     image: 'altoros.png',
     location: 'USA'
+  }, {
+    name: 'BlueBotics',
+    news: 'http://www.tradearabia.com/news/IND_372591.html',
+    image: 'bluebotics.jpg',
+    location: 'Switzerland'
   }
 ];
 
