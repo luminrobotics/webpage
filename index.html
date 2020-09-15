@@ -18,6 +18,11 @@
   </head>
 
   <body>
+    <video playsinline autoplay muted loop poster="gm_lobby_crf10.jpg" id="bgvid">
+      <source src="/gm_lobby_crf10.webm" type="video/webm">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
     <div id="content">
       <img src="logo.png">
       <br/>
@@ -31,5 +36,21 @@
     <div id="footer">
       Copyright © 2020 Lumin Robotics - All Rights Reserved.
     </div>
+
+    <script type="text/javascript">
+    var promise = document.querySelector('video').play();
+
+    if (promise !== undefined) {
+      promise.then(_ => {
+        // Autoplay started!
+        console.log('playing');
+      }).catch(error => {
+        // Autoplay was prevented.
+        // Show a "Play" button so that user can start playback.
+        console.log(error);
+      });
+    }
+    </script>
+
   </body>
 </html>

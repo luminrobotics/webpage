@@ -9,8 +9,8 @@ html, body {
 }
 
 body {
-  background-image: url('hotel.png');
-  background-size: cover;
+  /* background-image: url('hotel.png');
+  background-size: cover; */
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: hard-light;
   background-position: right top;
@@ -54,4 +54,13 @@ a:hover {
   width: 100vw;
   text-align: center;
   bottom: 20px;
+}
+
+#bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
