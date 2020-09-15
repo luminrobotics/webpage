@@ -260,6 +260,12 @@ var data = [{
   news: 'http://www.tradearabia.com/news/IND_372591.html',
   image: 'bluebotics.jpg',
   location: 'Switzerland'
+}, {
+  name: 'Invento: Astra-C',
+  news: 'https://analyticsindiamag.com/10-latest-robots-in-2020-one-must-know/',
+  website: 'https://astrarobot.com/',
+  image: 'astra-c.jpg',
+  location: 'India'
 }];
 
 var Data = function Data(_ref) {
