@@ -288,6 +288,12 @@ const data = [
     news: 'http://www.tradearabia.com/news/IND_372591.html',
     image: 'bluebotics.jpg',
     location: 'Switzerland'
+  }, {
+    name: 'UV Sterilizing Robot (UVC Robot)',
+    website: 'https://www.magicwandcompany.com/product/uv-sterilizing-robot/',
+    image: 'uvcrobot.png',
+    location: 'USA',
+    note: 'This seems to be a distributor.'
   }
 ];
 
