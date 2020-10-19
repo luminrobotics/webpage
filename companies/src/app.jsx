@@ -294,6 +294,11 @@ const data = [
     image: 'uvcrobot.png',
     location: 'USA',
     note: 'This seems to be a distributor.'
+  }, {
+    name: 'Metra: Sterybot',
+    website: 'https://www.metralabs.com/en/uv-c-disinfection-robot/',
+    image: 'metra.png',
+    location: 'Germany',
   }
 ];
 
