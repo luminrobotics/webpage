@@ -65,6 +65,15 @@ a:hover {
   left: 0;
 }
 
+#inlineVideo {
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
