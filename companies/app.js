@@ -236,7 +236,7 @@ var data = [{
   location: 'USA'
 }, {
   name: 'Resgreen Group International: Wanda',
-  website: 'Resgreen Group International',
+  news: 'https://www.marketscreener.com/quote/stock/RESGREEN-GROUP-INTERNATIO-32042433/news/Resgreen-Group-Completes-Prototype-of-Disinfecting-Autonomous-Mobile-Robot-31307030/',
   image: 'wanda.png',
   location: 'USA'
 }, {
