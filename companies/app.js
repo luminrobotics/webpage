@@ -271,6 +271,11 @@ var data = [{
   website: 'https://www.metralabs.com/en/uv-c-disinfection-robot/',
   image: 'metra.png',
   location: 'Germany'
+}, {
+  name: 'Ateago',
+  website: 'http://www.ateago.com/',
+  image: 'ateago.png',
+  location: 'China'
 }];
 
 var Data = function Data(_ref) {

@@ -299,8 +299,12 @@ const data = [
     website: 'https://www.metralabs.com/en/uv-c-disinfection-robot/',
     image: 'metra.png',
     location: 'Germany',
-  }
-];
+  }, {
+    name: 'Ateago',
+    website: 'http://www.ateago.com/',
+    image: 'ateago.png',
+    location: 'China'
+  }];
 
 const Data = ({data, groupBy}) => {
   const grouped = groupBy ? _.groupBy(data, c => c[groupBy]) : {'All': data};
