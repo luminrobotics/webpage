@@ -304,7 +304,14 @@ const data = [
     website: 'http://www.ateago.com/',
     image: 'ateago.png',
     location: 'China'
-  }];
+  }, {
+    name: 'Pudu Robotics: Puductor 2',
+    news: 'http://www.itnewsonline.com/news/Pudu-Robotics-Launches-New-Generation-of-Disinfection-Robot-Puductor-2-to-Provide-Technical-Support-for-Global-Fight-against-the-Pandemic/2019',
+    website: 'https://pudurobotics.uk/',
+    image: 'pudu.png',
+    location: 'China'
+  }
+];
 
 const Data = ({data, groupBy}) => {
   const grouped = groupBy ? _.groupBy(data, c => c[groupBy]) : {'All': data};
