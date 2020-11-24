@@ -282,6 +282,13 @@ var data = [{
   website: 'https://pudurobotics.uk/',
   image: 'pudu.png',
   location: 'China'
+}, {
+  name: 'Energy Focus: mUVe',
+  news: 'https://www.cleveland.com/news/2020/11/attention-well-heeled-germaphobes-solon-company-creates-45000-robot-to-disinfect-for-covid-19.html',
+  website: 'https://uvcd.energyfocus.com/',
+  image: 'energyfocus.png',
+  location: 'USA',
+  note: 'Price: $45,000'
 }];
 
 var Data = function Data(_ref) {
