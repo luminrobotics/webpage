@@ -317,6 +317,11 @@ const data = [
     image: 'energyfocus.png',
     location: 'USA',
     note: 'Price: $45,000'
+  }, {
+    name: 'LG',
+    news: 'https://www.prnewswire.com/news-releases/lg-announces-autonomous-robot-with-disinfecting-uv-light-for-various-b2b-applications-301191799.html',
+    image: 'lg.jpg',
+    location: 'South Korea',
   }
 ];
 
