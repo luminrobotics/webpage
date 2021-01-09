@@ -294,6 +294,12 @@ var data = [{
   news: 'https://www.prnewswire.com/news-releases/lg-announces-autonomous-robot-with-disinfecting-uv-light-for-various-b2b-applications-301191799.html',
   image: 'lg.jpg',
   location: 'South Korea'
+}, {
+  name: 'Ava Robotics',
+  website: 'https://www.avarobotics.com/disinfectionrobots',
+  news: 'https://mobilerobotguide.com/2021/01/08/ava-robotics-launches-new-uvc-disinfection-robot/',
+  image: 'ava.webp',
+  location: 'USA'
 }];
 
 var Data = function Data(_ref) {
