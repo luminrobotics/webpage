@@ -56,9 +56,9 @@ const data = [
     location: 'USA',
   },
   { name: 'PrescientX',
-    website: 'https://prescientx.com/',
+    website: 'https://prescientx.com/uv-robots',
     image: 'prescientx_crop.png',
-    note: 'No product page yet?',
+    note: 'This appears to be a prototype. Actual product to be announced on Jan 21st, 2021.',
     location: 'Canada',
   },
   { name: 'YOUIBOT ARIS-K2',
@@ -328,6 +328,13 @@ const data = [
     news: 'https://mobilerobotguide.com/2021/01/08/ava-robotics-launches-new-uvc-disinfection-robot/',
     image: 'ava.webp',
     location: 'USA',
+  }, {
+    name: 'ADIBOT (UB Tech)',
+    website: 'https://www.ubtrobot.com/products/adibot?ls=en',
+    news: 'https://www.cnet.com/videos/ubtech-adibot-is-a-uv-c-wielding-robot-that-disinfects-on-command/',
+    image: 'ubtech.png',
+    location: 'China',
+    note: 'Price: $40,000'
   }
 ];
 
