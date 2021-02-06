@@ -305,8 +305,14 @@ var data = [{
   website: 'https://www.ubtrobot.com/products/adibot?ls=en',
   news: 'https://www.cnet.com/videos/ubtech-adibot-is-a-uv-c-wielding-robot-that-disinfects-on-command/',
   image: 'ubtech.png',
-  location: 'USA',
+  location: 'China',
   note: 'Price: $40,000'
+}, {
+  name: 'Badger UltraViolet Disinfect (Badger Technologies)',
+  website: 'https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html',
+  news: 'https://roboticsandautomationnews.com/2021/02/03/badger-technologies-launches-ultraviolet-disinfection-robot/40179/',
+  image: 'badger.jpg',
+  location: 'USA'
 }];
 
 var Data = function Data(_ref) {
