@@ -341,6 +341,11 @@ const data = [
     news: 'https://roboticsandautomationnews.com/2021/02/03/badger-technologies-launches-ultraviolet-disinfection-robot/40179/',
     image: 'badger.jpg',
     location: 'USA'
+  }, {
+    name: 'COVID-INOTA',
+    website: 'https://www.inovasyonmuhendislik.com/en/products/covid-inota',
+    image: 'inota.jpg',
+    location: 'Turkey'
   }
 ];
 
